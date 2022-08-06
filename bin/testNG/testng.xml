@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My TestNG Suite">
+
+ <test name="First Test">
+    <classes>
+        <class name="testNG.TestNGTestCases"></class>
+          
+    </classes>
+</test>
+
+ <test name="Second Test">
+    <classes>
+        <class name="testNG.TestNGAnnotations"></class>  
+    </classes>
+</test>
+
+<test name="Third Test">
+    <classes>
+        <class name="testNG.TestNGAnnotations2"></class>
+         </classes>
+</test>
+</suite>
